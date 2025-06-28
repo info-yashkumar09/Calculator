@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.head-nav{
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.navbar{
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 20px;
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding: 0px 50px;
+}
+.navbar>img{
+    width: 25px;
+    height: 25px;
+}
+.navbar>h2{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+.main-section{
+    width: 100vw;
+    height: auto;
+    padding: 90px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-section>.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 10px;
+    padding: 70px 100px;
+    row-gap: 40px;
+    box-shadow: 0px 0px 10px 0px rgb(166, 165, 165);
+}
+.first-num-input-box>input{
+    width: 400px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+.operaor-select-box>select{
+    width: 400px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+.second-num-input-box>input{
+    width: 400px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+.calculate-btn>button{
+    width: 400px;
+    height: 40px;
+    border: none;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(79, 209, 68);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+.result-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 40px;
+    border: 3px solid rgb(79, 209, 68);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    padding: 0 20px;
+    column-gap: 10px;
+  }
+
+  .navbar > h2 {
+    font-size: 20px;
+  }
+
+  .main-section {
+    padding: 50px 0;
+  }
+
+  .main-section > .container {
+    padding: 40px 20px;
+    row-gap: 30px;
+    width: 400px;
+    height: auto;
+  }
+
+  .first-num-input-box > input,
+  .operaor-select-box > select,
+  .second-num-input-box > input,
+  .calculate-btn > button,
+  .result-section {
+    width: 330px;
+    font-size: 16px;
+  }
+
+  .result-section {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 465px) {
+  .navbar {
+    padding: 0 20px;
+    column-gap: 10px;
+  }
+
+  .navbar > h2 {
+    font-size: 20px;
+  }
+
+  .main-section {
+    padding: 50px 0;
+  }
+
+  .main-section > .container {
+    padding: 40px 20px;
+    row-gap: 30px;
+    width: 330px;
+    height: auto;
+  }
+
+  .first-num-input-box > input,
+  .operaor-select-box > select,
+  .second-num-input-box > input,
+  .calculate-btn > button,
+  .result-section {
+    width: 280px;
+    font-size: 16px;
+  }
+
+  .result-section {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 337px) {
+  .navbar {
+    padding: 0 20px;
+    column-gap: 10px;
+  }
+
+  .navbar > h2 {
+    font-size: 20px;
+  }
+
+  .main-section {
+    padding: 50px 0;
+  }
+
+  .main-section > .container {
+    padding: 40px 20px;
+    row-gap: 30px;
+    width: 300px;
+    height: auto;
+  }
+
+  .first-num-input-box > input,
+  .operaor-select-box > select,
+  .second-num-input-box > input,
+  .calculate-btn > button,
+  .result-section {
+    width: 280px;
+    font-size: 16px;
+  }
+
+  .result-section {
+    font-size: 18px;
+  }
+}

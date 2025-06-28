@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CalcPro</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Assets/logo.png" type="image/x-icon">
+</head>
+<body>
+
+    <header class="head-nav">
+        <nav class="navbar">
+            <img src="Assets/logo.png" alt="logo">
+            <h2>CalcPro</h2>
+        </nav>
+    </header>
+    <main class="main-section">
+        <div class="container">
+            <div class="first-num-input-box">
+                <input type="number" id="num1" placeholder=" First Number">
+            </div>
+            <div class="operaor-select-box">
+                <select id="operator">
+                    <option value="selecty">Select operator</option>
+                    <option value="+">+</option>
+                    <option value="-">-</option>
+                    <option value="*">*</option>
+                    <option value="/">/</option>
+                </select>
+            </div>
+            <div class="second-num-input-box">
+                <input type="number" id="num2" placeholder=" Second Number">
+            </div>
+            <div class="calculate-btn">
+                <button onclick="calculate()">Calculate</button>
+            </div>
+            <div class="result-section" id="result">
+                Result will appear here...
+            </div>
+        </div>
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
