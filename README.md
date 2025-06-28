@@ -7,7 +7,7 @@ CalcPro allows users to perform basic arithmetic operations with user-friendly i
 
 ## 🚀 Live Demo
 
-👉 [View Live on Vercel](https://your-vercel-link.vercel.app) <!-- Replace with your actual Vercel URL -->
+👉 [View Live on Vercel](https://calcpro-two.vercel.app/)
 
 ---
 
